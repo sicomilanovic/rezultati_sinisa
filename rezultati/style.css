@@ -1,0 +1,178 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+    background: radial-gradient(circle at top, #0b1220, #050814);
+    color:#fff;
+    min-height:100vh;
+}
+
+/* NAVBAR */
+.navbar{
+    background:#0f172a;
+    padding:18px 30px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border-bottom:1px solid #1f2937;
+    position:sticky;
+    top:0;
+}
+
+.navbar b{
+    font-size:20px;
+    letter-spacing:1px;
+}
+
+.navbar a{
+    color:#38bdf8;
+    text-decoration:none;
+    margin:0 12px;
+    font-weight:600;
+    transition:0.2s;
+}
+
+.navbar a:hover{
+    color:white;
+}
+
+/* CONTAINER */
+.container{
+    width:92%;
+    max-width:1100px;
+    margin:auto;
+    padding:25px 0;
+}
+
+/* TITLES */
+h1,h2{
+    margin:20px 0;
+    text-align:center;
+    letter-spacing:1px;
+}
+
+/* MATCH CARD */
+.match-card{
+    background: linear-gradient(145deg,#111827,#0b1220);
+    padding:18px;
+    margin:14px 0;
+    border-radius:16px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    box-shadow:0 10px 30px rgba(0,0,0,0.5);
+    transition:0.25s;
+}
+
+.match-card:hover{
+    transform:scale(1.02);
+    box-shadow:0 15px 40px rgba(56,189,248,0.2);
+}
+
+.team{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    width:33%;
+}
+
+.team img{
+    width:38px;
+    height:38px;
+    border-radius:50%;
+    background:white;
+    padding:2px;
+}
+
+.score{
+    font-size:28px;
+    font-weight:bold;
+    color:#38bdf8;
+}
+
+/* FORMS */
+.form-box{
+    width:380px;
+    margin:40px auto;
+    background:#111827;
+    padding:25px;
+    border-radius:14px;
+    box-shadow:0 0 25px rgba(0,0,0,0.5);
+}
+
+input,select{
+    width:100%;
+    padding:12px;
+    margin:8px 0;
+    border:none;
+    border-radius:10px;
+    background:#0b1220;
+    color:white;
+    outline:none;
+}
+
+input:focus,select:focus{
+    border:1px solid #38bdf8;
+}
+
+/* BUTTONS */
+button{
+    width:100%;
+    padding:12px;
+    background:#38bdf8;
+    border:none;
+    border-radius:10px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.2s;
+}
+
+button:hover{
+    background:#0ea5e9;
+    transform:scale(1.02);
+}
+
+/* TABLE STYLE */
+.table-card{
+    background:#111827;
+    padding:15px;
+    margin:10px 0;
+    border-radius:12px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    box-shadow:0 8px 20px rgba(0,0,0,0.4);
+}
+
+.badge{
+    background:#38bdf8;
+    color:black;
+    padding:6px 10px;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+/* GRID LAYOUT */
+.grid{
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    gap:20px;
+}
+
+/* SMALL TEXT */
+small{
+    color:#94a3b8;
+}
+
+/* LINKS */
+a{
+    transition:0.2s;
+}
+
+a:hover{
+    opacity:0.8;
+}
