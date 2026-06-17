@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 09, 2026 at 01:30 PM
--- Server version: 10.4.28-MariaDB
--- PHP Version: 8.2.4
+-- Generation Time: Jun 17, 2026 at 04:26 PM
+-- Server version: 10.4.32-MariaDB
+-- PHP Version: 8.0.30
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -223,10 +223,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `password`) VALUES
-(1, 'radovanovic@gmail.com', '$2y$10$VPlds66kkSLFj/2c61eUZuy2jrMXAJLpdFIZBwnkXhNy06IU9MJoi'),
-(2, 'radovanoviccc@gmail.com', '$2y$10$Ma7KVifiekQWxlY6NDuYa.dATOHWaAHywnru4vuUFh5S3yTHsGhdC'),
-(3, 'radovanovicccc@gmail.com', '$2y$10$QtIMEYNIRgaCBE5sMLGkIerqHwbamwCqhgisIz52r2U3pawcqG8zW'),
-(6, 'radovanoviic@gmail.com', '$2y$10$jgjlzmf9iwhWXKbD8XXcsuq84df9RrciUwQIp3UF14.8VR21O1o/C');
+(7, 'milanovicsico@gmail.com', '$2y$10$Z1ssDZJ0E2srSpaeuC9OG.ltBhl9/qU5NOwbCRvKZ7oVZsRMtcRwO');
 
 --
 -- Indexes for dumped tables
@@ -298,7 +295,7 @@ ALTER TABLE `teams`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- Constraints for dumped tables
